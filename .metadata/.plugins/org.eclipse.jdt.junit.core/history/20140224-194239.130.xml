@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestReset" project="UILabsTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="NexusS [emulator-5554]" time="24.277">
+    <testsuite name="course.labs.todomanager.test.TestReset" time="24.277">
+      <testcase name="testRun " classname="course.labs.todomanager.test.TestReset" time="24.277"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,60 @@
+package course.labs.activitylab;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class ActivityTwo extends Activity {
+
+	// String for LogCat documentation
+	private final static String TAG = "Lab-ActivityTwo";
+
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_two);
+
+		// TODO: Assign the appropriate TextViews to the TextView variables
+		// Hint: Access the TextView by calling Activity's findViewById()
+		// textView1 = (TextView) findViewById(R.id.textView1);
+
+		Button closeButton = (Button) findViewById(R.id.bClose); 
+		closeButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+
+				// TODO:
+				// This function closes Activity Two
+				// Hint: use Context's finish() method			
+			}
+		});
+
+		// Check for previously saved state
+		if (savedInstanceState != null) {
+
+			// TODO:
+			// Restore value of counters from saved state
+			// Only need 4 lines of code, one for every count variable
+		}
+
+		// TODO: Emit LogCat message
+		// TODO:
+		// Update the appropriate count variable
+		// Update the user interface via the displayCounts() method
+	}
+
+	// Lifecycle callback methods overrides
+	@Override
+	public void onSaveInstanceState(Bundle savedInstanceState) {
+
+		// TODO:
+		// Save counter state information with a collection of key-value pairs
+		// 4 lines of code, one for every count variable
+	
+	}
+}

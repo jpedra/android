@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="course.labs.activitylab.R.layout"/>
+<fullyQualifiedTypeName name="course.labs.activitylab.R.id"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="course.labs.activitylab.ActivityOne"/>
+<fullyQualifiedTypeName name="course.labs.activitylab.ActivityTwo"/>
+<fullyQualifiedTypeName name="course.labs.activitylab.BaseActivity"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="course.labs.fragmentslab.R.id"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="course.labs.todomanager.AddToDoActivity"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.view.LayoutInflater"/>
+<fullyQualifiedTypeName name="course.labs.todomanager.R.layout"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="course.labs.todomanager.ToDoItem.Status"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="course.labs.todomanager.R.id"/>
+<fullyQualifiedTypeName name="course.labs.todomanager.ToDoItem"/>
+<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
+</qualifiedTypeNameHistroy>
