@@ -14,7 +14,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.media.AudioManager;
 import android.media.SoundPool;
-import android.media.SoundPool.OnLoadCompleteListener;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -23,7 +22,6 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.RelativeLayout;
-import android.media.SoundPool;
 
 public class BubbleActivity extends Activity {
 
@@ -90,21 +88,14 @@ public class BubbleActivity extends Activity {
 				/ mAudioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
 
 		// TODO - make a new SoundPool, allowing up to 10 streams 
-		mSoundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
+		mSoundPool = null;
 
 		// TODO - set a SoundPool OnLoadCompletedListener that calls setupGestureDetector()
-		mSoundPool.setOnLoadCompleteListener(new OnLoadCompleteListener() {
-			
-			@Override
-			public void onLoadComplete(SoundPool soundPool, int sampleId, int status) {
-				// TODO Auto-generated method stub
-				setupGestureDetector();
-			}
-		});
+
 		
 		// TODO - load the sound from res/raw/bubble_pop.wav
 		mSoundID = 0;
-		mSoundPool.load(this, R.raw.bubble_pop, 1);
+
 	}
 
 	@Override
@@ -190,7 +181,7 @@ public class BubbleActivity extends Activity {
 	protected void onPause() {
 		
 		// TODO - Release all SoundPool resources
-		mSoundPool.release();
+
 
 		
 		

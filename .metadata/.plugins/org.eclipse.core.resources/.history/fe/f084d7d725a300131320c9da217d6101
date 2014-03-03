@@ -190,7 +190,7 @@ public class BubbleActivity extends Activity {
 	protected void onPause() {
 		
 		// TODO - Release all SoundPool resources
-		mSoundPool.release();
+
 
 		
 		
