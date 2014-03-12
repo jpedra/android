@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestOneValidLocation" project="LocationLabTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="NexusS [emulator-5556]" time="14.672">
+    <testsuite name="course.labs.locationlab.test.TestOneValidLocation" time="14.672">
+      <testcase name="testRun " classname="course.labs.locationlab.test.TestOneValidLocation" time="14.672"/>
+    </testsuite>
+  </testsuite>
+</testrun>
