@@ -58,6 +58,7 @@ import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.RemoteException;
+import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.text.Editable;
 import android.util.Log;
@@ -65,6 +66,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -115,6 +117,15 @@ public class CreateStoryFragment extends Fragment {
 
 	public final static String LOCATION = "story";
 
+	public void setImagePath(Uri src)
+	{
+		imagePath = src;
+	}
+	public Uri getImagePath()
+	{
+		return imagePath;
+	}
+	
 	void doRecordButtonClick() {
 		Intent i = new Intent(CreateStoryFragment.this.getActivity(),
 				SoundRecordActivity.class);

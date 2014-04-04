@@ -208,11 +208,14 @@ public class SoundRecordActivity extends Activity {
                 ViewGroup.LayoutParams.WRAP_CONTENT, 0));
         setContentView(ll);
         
-
+       // try {
     	Intent caller = getIntent();
     	mFileName = caller.getStringExtra(EXTRA_OUTPUT);
     	
 		Log.i("zzz", mFileName);
+        /*}catch(Exception ex) {
+        	Log.i("zzz", ex.getMessage());
+        }*/
     }
 
     @Override

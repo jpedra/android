@@ -132,7 +132,7 @@ University of Maryland to appear in their names.
     <string name="story_list_filter_hint">Title Filter...</string>
     
     <!-- tags List Fragment Strings -->
-    <string name="tags_list_button_label_add">ADD</string>
+    <string name="tags_list_button_label_add">+</string>
     <string name="tags_list_button_label_refresh">REFRESH</string>
     
 

@@ -148,8 +148,10 @@ public class StoryListFragment extends ListFragment {
 		// get the ListView that will be displayed
 		ListView lv = (ListView) view.findViewById(android.R.id.list);
 
+		View v = view.findViewById(R.id.story_listview_text_filter);
+		
 		filterET = (EditText) view
-				.findViewById(R.id.story_listview_tags_filter);
+				.findViewById(R.id.story_listview_text_filter);
 		
 		filterET.addTextChangedListener(new TextWatcher() {
 			
@@ -171,7 +173,7 @@ public class StoryListFragment extends ListFragment {
 		});
 
 		// customize the ListView in whatever desired ways.
-		lv.setBackgroundColor(Color.GRAY);
+		lv.setBackgroundColor(Color.BLACK);
 		// return the parent view
 		return view;
 	}
