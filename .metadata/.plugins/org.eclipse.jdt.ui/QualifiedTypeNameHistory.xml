@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="course.labs.activitylab.R.layout"/>
-<fullyQualifiedTypeName name="course.labs.activitylab.R.id"/>
-<fullyQualifiedTypeName name="android.view.View"/>
-<fullyQualifiedTypeName name="course.labs.activitylab.ActivityOne"/>
-<fullyQualifiedTypeName name="course.labs.activitylab.ActivityTwo"/>
-<fullyQualifiedTypeName name="course.labs.activitylab.BaseActivity"/>
-<fullyQualifiedTypeName name="android.util.Log"/>
-<fullyQualifiedTypeName name="course.labs.fragmentslab.R.id"/>
-<fullyQualifiedTypeName name="android.widget.ListView"/>
-<fullyQualifiedTypeName name="android.content.Intent"/>
-<fullyQualifiedTypeName name="course.labs.todomanager.AddToDoActivity"/>
+<fullyQualifiedTypeName name="android.content.ContentResolver"/>
+<fullyQualifiedTypeName name="android.content.CursorLoader"/>
+<fullyQualifiedTypeName name="course.labs.contentproviderlab.provider.PlaceBadgesContract"/>
+<fullyQualifiedTypeName name="android.media.RingtoneManager"/>
 <fullyQualifiedTypeName name="android.content.Context"/>
-<fullyQualifiedTypeName name="android.view.LayoutInflater"/>
-<fullyQualifiedTypeName name="course.labs.todomanager.R.layout"/>
-<fullyQualifiedTypeName name="java.lang.Boolean"/>
-<fullyQualifiedTypeName name="course.labs.todomanager.ToDoItem.Status"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="course.labs.todomanager.R.id"/>
-<fullyQualifiedTypeName name="course.labs.todomanager.ToDoItem"/>
-<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
+<fullyQualifiedTypeName name="android.provider.MediaStore"/>
+<fullyQualifiedTypeName name="edu.vuum.mocca.ui.story.SoundRecordActivity"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="edu.vuum.mocca.provider.MoocSchema.Story"/>
+<fullyQualifiedTypeName name="edu.vuum.mocca.provider.MoocSchema"/>
+<fullyQualifiedTypeName name="android.webkit.MimeTypeMap"/>
+<fullyQualifiedTypeName name="edu.vuum.mocca.provider.MoocDataDBAdapter.myDbHelper"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
+<fullyQualifiedTypeName name="edu.vanderbilt.mooc.R.id"/>
 </qualifiedTypeNameHistroy>

@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=UILabs,UILabsTest,NotificationsLab,NotificationsLabTest,GraphicsLab
+task-tag-projects-already-scanned=ContentProviderLabContentProvider,ContentProviderLabTest,ContentProviderLabUser,LocationLab,iRemember,iRememberContentProvider

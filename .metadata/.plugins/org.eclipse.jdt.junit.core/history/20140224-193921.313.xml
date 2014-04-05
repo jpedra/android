@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCancel" project="UILabsTest" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="NexusS [emulator-5554]" time="36.479">
-    <testsuite name="course.labs.todomanager.test.TestCancel" time="36.479">
-      <testcase name="testRun " classname="course.labs.todomanager.test.TestCancel" time="36.479"/>
-    </testsuite>
-  </testsuite>
-</testrun>

@@ -77,7 +77,8 @@ public class PlaceRecord {
 		Location.distanceBetween(location.getLatitude(),
 				location.getLongitude(), lat, lon, results);
 
-		return (results[0] <= tolerance);
+		return location.getLatitude() == lat;
+		//return (results[0] <= tolerance);
 
 	}
 
